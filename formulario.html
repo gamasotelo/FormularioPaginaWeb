@@ -2,40 +2,63 @@
 <html lang="">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="Estilo.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@600&family=Staatliches&display=swap" rel="stylesheet">
     <title>Formulario_Farmacia</title>
   </head>
   <body>
-    <header></header>
-    <ul>
-      <li>
-        <label for="producto">Producto</label>
-        <input type="text" name="producto">
-      </li>
-    </ul>
+    <header>
+      <h1>Farmacia los Chochitos</h1>
+    </header>
+    <form action="Datos.php" method="post" autocomplete="on">
 
-    <ul>
-      <li>
-        <label for="precio">Precio</label>
-        <input type="text" name="precio">
-      </li>
-    </ul>
-
-    <ul>
-      <li>
-        <label for="caducidad">Caducidad</label>
-        <input type="text" name="caducidad">
-      </li>
-    </ul>
-
-    <ul>
-      <li>
-        <label for="cantidad">Cantidad</label>
-        <input type="text" name="cantidad">
-      </li>
-    </ul>
-
-    <input type="submit" value="Enviar">
+      <ul>
+        <li>
+          <label for="codigo">Codigo</label>
+          <input type="text" name="codigo">
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <label for="producto">Producto</label>
+          <input type="text" name="producto">
+        </li>
+      </ul>
+  
+      <ul>
+        <li>
+          <label for="precio">Precio</label>
+          <input type="text" name="precio">
+        </li>
+      </ul>
+  
+      <ul>
+        <li>
+          <label for="caducidad">Caducidad</label>
+          <input type="text" name="caducidad">
+        </li>
+      </ul>
+  
+      <ul>
+        <li>
+          <label for="cantidad">Cantidad</label>
+          <input type="text" name="cantidad">
+        </li>
+      </ul>
+      <input type="submit"  value="Enviar" class="button" />
+  
+     <!--<button type="submit" value="Enviar" name="button">Enviar</button>-->
+    </form>
+   
     <main></main>
-    <footer></footer>
+    
+    <footer>
+      <p>Todos los derechos reservados</p>
+      <img src="logo_tecnm.png" class = "tecnm_img" title = "Instituto Tecnológico de México"alt="Logo tecnm" height="70" >
+      <img src="tecnologico de cuautla.png" class = "cuautla_img" title="Tecnológico de Cuautla" alt="Logo itcuautla" height="70" >
+    </footer>
   </body>
 </html>

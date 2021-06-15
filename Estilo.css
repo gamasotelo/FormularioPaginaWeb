@@ -1,0 +1,96 @@
+form 
+{
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 600px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 5px dashed;
+    border-color: #D49E2F;
+    border-radius: 2em;
+    align-items: center;
+  }
+
+  html, body{
+    height:100%;
+    min-height: calc(100% - 4rem);
+    background-color: #1D7C80
+  }
+
+  label 
+  {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-size: 22px;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  h1{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Staatliches', cursive;
+    margin: 0 auto;
+    font-size: 100px;
+    color: #D49E2F;
+    text-align: center;
+  }
+
+  input{
+      width: 400px;
+      height:30px ;
+      background-color: #DDE2E7;
+      border-radius: 10px;
+      border-style: hidden;
+  }
+
+  .tecnm_img{
+    position: absolute;
+    left: 15px;
+  }
+
+  .cuautla_img{
+    position: absolute;
+    left: 1190px;
+  }
+
+  .button{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    cursor: pointer;
+    height: 40px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    background-color:#D49E2F;
+  } 
+
+  p{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Staatliches', cursive;
+    position: absolute;
+    left: 600px;
+  }
+
+  footer{
+    width: 98.2%;
+    background: #D49E2F;
+    position: absolute;
+    bottom: 0;
+    bottom: -1px;
+    height: 70px;
+  }
