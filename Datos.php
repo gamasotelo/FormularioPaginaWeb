@@ -24,7 +24,7 @@
         $servername = "localhost";
         $username = "root";
         $password = "";
-        $dbname = "registro_estudiantes";
+        $dbname = "Farmacia";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
@@ -34,7 +34,7 @@
         }
 
         // Insertar datos
-        $sql = "INSERT INTO estudiantes (codigo, producto, precio, cantidad, caducidad)
+        $sql = "INSERT INTO producto (codigo, producto, precio, cantidad, caducidad)
         VALUES ('$codigo', '$producto', '$precio', '$cantidad', '$caducidad')";
 
         if ($conn->query($sql) === TRUE) {
